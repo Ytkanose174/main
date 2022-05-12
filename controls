@@ -21,8 +21,7 @@ def events(screen,gun, bullets):
             elif event.key == pygame.K_SPACE:
                 new_bullet = Bullet(screen, gun)
                 bullets.add(new_bullet)
-                pygame.mixer.music.load('vystrel.mp3')
-                pygame.mixer.music.play(1)
+
 
             if event.key == pygame.K_KP6:
                 gun.kright2 = True
