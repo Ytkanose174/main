@@ -4,7 +4,7 @@ import pygame
 class Gun():
     def __init__(self, screen):
         self.screen = screen
-        self.image = pygame.image.load('image/player.jpg')
+        self.image = pygame.image.load('image/player2.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
         self.rect.centerx = self.screen_rect.centerx
@@ -14,7 +14,7 @@ class Gun():
         self.kup = False
         self.kdown = False
 
-        self.image2 = pygame.image.load('image/pavuk.png')
+        self.image2 = pygame.image.load('image/vrag.png')
         self.rect2 = self.image2.get_rect()
         self.rect2.centerx = self.screen_rect.centerx
         self.rect2.bottom = self.screen_rect.bottom
